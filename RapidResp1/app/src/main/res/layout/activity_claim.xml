@@ -1,0 +1,83 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:id="@+id/tv_name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tv_name"
+        android:hint="Enter your Name"
+        android:id="@+id/et_name"
+        android:layout_toRightOf="@+id/tv_name"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_image"
+        android:background="@drawable/buttonb"
+        android:text="Add Image"
+        android:textColor="#fff"
+        android:layout_below="@+id/tv_name"
+        android:layout_marginTop="10dp"
+        android:onClick="selectImg"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message: "
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_below="@+id/add_image"
+        android:id="@+id/tv_message"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Claim"
+        android:inputType="textMultiLine"
+        android:lines="10"
+        android:minLines="10"
+        android:id="@+id/et_message"
+        android:scrollbars="vertical"
+        android:gravity="top|left"
+        android:layout_below="@+id/tv_message"/>
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit"
+        android:background="@drawable/buttonr"
+        android:text="Submit"
+        android:textColor="#fff"
+        android:layout_below="@+id/et_message"
+        android:layout_marginTop="10dp"
+        android:onClick="submit"
+        android:layout_centerHorizontal="true"/>
+        />
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
