@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/loginEmail"
+                android:layout_width="match_parent"
+                android:theme="@style/CustomStyle"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                />
+
+            <EditText
+                android:id="@+id/loginpasword"
+                android:layout_width="match_parent"
+                android:theme="@style/CustomStyle"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:hint="Password"
+                android:inputType="textPassword" />
+
+
+            <Button
+                android:id="@+id/btnLogIn"
+                android:background="@drawable/buttonr_g"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_margin="15dp"
+                android:onClick="Login"
+                android:text="Login"/>
+            <Button
+                android:id="@+id/signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:layout_margin="15dp"
+                android:background="@drawable/buttonr_b"
+                android:textColor="#fff"
+                android:textSize="18dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:id="@+id/forgotpass"
+                android:background="@drawable/buttonr_w"
+                android:text="Forgot Password?"
+                android:gravity="center"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

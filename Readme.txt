@@ -1,0 +1,1 @@
+This project was made in during Kerala Reboot Hackathon by the Team Replica. Here we mainly focus on developing an android application which can analys a person's emotion through questionnair, sentiment analysis and Emotion Detection.

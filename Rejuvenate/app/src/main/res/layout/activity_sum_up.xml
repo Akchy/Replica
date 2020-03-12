@@ -1,0 +1,82 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Emotion Detection Result:"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:id="@+id/EmotionT"
+            android:padding="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/EmotionT"
+            android:layout_margin="5dp"
+            android:id="@+id/emoVal"
+            android:inputType="numberDecimal"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sentiment Analysis Result:"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/EmotionT"
+            android:id="@+id/SentimentT"
+            android:padding="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/SentimentT"
+            android:layout_margin="5dp"
+            android:id="@+id/sentiVal"
+            android:layout_below="@+id/EmotionT"
+            android:inputType="numberDecimal"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Questinare Result:"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/SentimentT"
+            android:id="@+id/QuestionareT"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/QuestionareT"
+            android:layout_alignTop="@+id/QuestionareT"
+            android:layout_margin="15dp"
+            android:textColor="#000"
+            android:id="@+id/questVal"
+            android:layout_below="@+id/SentimentT"
+            android:textSize="15dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/submit"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttonr_g"
+            android:layout_below="@+id/QuestionareT"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

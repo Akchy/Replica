@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Meditation:"
+        android:textColor="#000"
+        android:textSize="25sp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Video One"
+        android:id="@+id/v1"
+        android:padding="5dp"
+        android:background="@drawable/buttonr_g"
+        android:textColor="#000"
+        android:textSize="20sp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Video Two"
+        android:textColor="#000"
+        android:padding="5dp"
+        android:background="@drawable/buttonr_g"
+        android:id="@+id/v2"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Video Three"
+        android:textColor="#000"
+        android:padding="5dp"
+        android:background="@drawable/buttonr_g"
+        android:id="@+id/v3"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Video Four"
+        android:textColor="#000"
+        android:padding="5dp"
+        android:background="@drawable/buttonr_g"
+        android:id="@+id/v4"
+        android:textSize="20sp"/>
+
+
+
+</LinearLayout>

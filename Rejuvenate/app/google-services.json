@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "500189180853",
+    "firebase_url": "https://replica-dce4d.firebaseio.com",
+    "project_id": "replica-dce4d",
+    "storage_bucket": "replica-dce4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500189180853:android:44a6e6d22e96e87712dffc",
+        "android_client_info": {
+          "package_name": "com.alpha.doctorReju"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500189180853-6orjrboielje4roldmekb50i8cpg87mg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alpha.doctorReju",
+            "certificate_hash": "fb38c63bad9cd94d423a3b33d636d1560539c701"
+          }
+        },
+        {
+          "client_id": "500189180853-7qlq1gr19bbn90gf542v80ar0iu7v9j0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu7Gjs0e4e_g0Kr8pF7jIajBfMS1dt-uY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500189180853-taifssivclk6dlnvl72478plc6mv41an.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500189180853:android:0b5c818e8b405e6212dffc",
+        "android_client_info": {
+          "package_name": "com.alpha.rapidresp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500189180853-8tte43va8ocv7b1ubssfj2r7fou78sle.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alpha.rapidresp",
+            "certificate_hash": "fb38c63bad9cd94d423a3b33d636d1560539c701"
+          }
+        },
+        {
+          "client_id": "500189180853-7qlq1gr19bbn90gf542v80ar0iu7v9j0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu7Gjs0e4e_g0Kr8pF7jIajBfMS1dt-uY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500189180853-taifssivclk6dlnvl72478plc6mv41an.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500189180853:android:7b0520da48f61d6512dffc",
+        "android_client_info": {
+          "package_name": "com.alpha.rejuvenateBystander"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500189180853-vc91rtim5hog32n3jip3hvd229m67dc6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alpha.rejuvenateBystander",
+            "certificate_hash": "fb38c63bad9cd94d423a3b33d636d1560539c701"
+          }
+        },
+        {
+          "client_id": "500189180853-7qlq1gr19bbn90gf542v80ar0iu7v9j0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu7Gjs0e4e_g0Kr8pF7jIajBfMS1dt-uY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500189180853-taifssivclk6dlnvl72478plc6mv41an.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/CustomStyle"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:inputType="textEmailAddress"
+                android:id="@+id/emailreset"
+                android:hint="Enter your registered E-mail"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/emailreset"
+                android:background="@drawable/buttonr_b"
+                android:text="Submit"
+                android:textColor="#fff"
+                android:id="@+id/reset"
+                android:layout_margin="15dp"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
